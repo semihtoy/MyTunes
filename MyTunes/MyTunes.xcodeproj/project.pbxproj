@@ -19,6 +19,30 @@
 		F0D3766A2951F9C8007503F4 /* MyTunesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D376692951F9C8007503F4 /* MyTunesTests.swift */; };
 		F0D376742951F9C8007503F4 /* MyTunesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D376732951F9C8007503F4 /* MyTunesUITests.swift */; };
 		F0D376762951F9C8007503F4 /* MyTunesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D376752951F9C8007503F4 /* MyTunesUITestsLaunchTests.swift */; };
+		F0D3768B2951FD18007503F4 /* STNetwork.docc in Sources */ = {isa = PBXBuildFile; fileRef = F0D3768A2951FD18007503F4 /* STNetwork.docc */; };
+		F0D376912951FD18007503F4 /* STNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D376872951FD18007503F4 /* STNetwork.framework */; };
+		F0D376982951FD18007503F4 /* STNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D376972951FD18007503F4 /* STNetworkTests.swift */; };
+		F0D376992951FD18007503F4 /* STNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D376892951FD18007503F4 /* STNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0D3769C2951FD18007503F4 /* STNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D376872951FD18007503F4 /* STNetwork.framework */; };
+		F0D3769D2951FD18007503F4 /* STNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0D376872951FD18007503F4 /* STNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0D376AE2951FD2D007503F4 /* STEntities.docc in Sources */ = {isa = PBXBuildFile; fileRef = F0D376AD2951FD2D007503F4 /* STEntities.docc */; };
+		F0D376B42951FD2D007503F4 /* STEntities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D376AA2951FD2D007503F4 /* STEntities.framework */; };
+		F0D376BB2951FD2D007503F4 /* STEntitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D376BA2951FD2D007503F4 /* STEntitiesTests.swift */; };
+		F0D376BC2951FD2D007503F4 /* STEntities.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D376AC2951FD2D007503F4 /* STEntities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0D376BF2951FD2D007503F4 /* STEntities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D376AA2951FD2D007503F4 /* STEntities.framework */; };
+		F0D376C02951FD2D007503F4 /* STEntities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0D376AA2951FD2D007503F4 /* STEntities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0D376D02951FD5A007503F4 /* STComponents.docc in Sources */ = {isa = PBXBuildFile; fileRef = F0D376CF2951FD5A007503F4 /* STComponents.docc */; };
+		F0D376D62951FD5A007503F4 /* STComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D376CC2951FD5A007503F4 /* STComponents.framework */; };
+		F0D376DD2951FD5A007503F4 /* STComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D376DC2951FD5A007503F4 /* STComponentsTests.swift */; };
+		F0D376DE2951FD5A007503F4 /* STComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D376CE2951FD5A007503F4 /* STComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0D376E12951FD5A007503F4 /* STComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D376CC2951FD5A007503F4 /* STComponents.framework */; };
+		F0D376E22951FD5A007503F4 /* STComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0D376CC2951FD5A007503F4 /* STComponents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0D376F22951FD6B007503F4 /* STCore.docc in Sources */ = {isa = PBXBuildFile; fileRef = F0D376F12951FD6B007503F4 /* STCore.docc */; };
+		F0D376F82951FD6C007503F4 /* STCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D376EE2951FD6B007503F4 /* STCore.framework */; };
+		F0D376FF2951FD6C007503F4 /* STCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D376FE2951FD6C007503F4 /* STCoreTests.swift */; };
+		F0D377002951FD6C007503F4 /* STCore.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D376F02951FD6B007503F4 /* STCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0D377032951FD6C007503F4 /* STCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D376EE2951FD6B007503F4 /* STCore.framework */; };
+		F0D377042951FD6C007503F4 /* STCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0D376EE2951FD6B007503F4 /* STCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +60,108 @@
 			remoteGlobalIDString = F0D3764E2951F9C7007503F4;
 			remoteInfo = MyTunes;
 		};
+		F0D376922951FD18007503F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0D376472951F9C7007503F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0D376862951FD18007503F4;
+			remoteInfo = STNetwork;
+		};
+		F0D376942951FD18007503F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0D376472951F9C7007503F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0D3764E2951F9C7007503F4;
+			remoteInfo = MyTunes;
+		};
+		F0D3769A2951FD18007503F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0D376472951F9C7007503F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0D376862951FD18007503F4;
+			remoteInfo = STNetwork;
+		};
+		F0D376B52951FD2D007503F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0D376472951F9C7007503F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0D376A92951FD2D007503F4;
+			remoteInfo = STEntities;
+		};
+		F0D376B72951FD2D007503F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0D376472951F9C7007503F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0D3764E2951F9C7007503F4;
+			remoteInfo = MyTunes;
+		};
+		F0D376BD2951FD2D007503F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0D376472951F9C7007503F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0D376A92951FD2D007503F4;
+			remoteInfo = STEntities;
+		};
+		F0D376D72951FD5A007503F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0D376472951F9C7007503F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0D376CB2951FD5A007503F4;
+			remoteInfo = STComponents;
+		};
+		F0D376D92951FD5A007503F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0D376472951F9C7007503F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0D3764E2951F9C7007503F4;
+			remoteInfo = MyTunes;
+		};
+		F0D376DF2951FD5A007503F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0D376472951F9C7007503F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0D376CB2951FD5A007503F4;
+			remoteInfo = STComponents;
+		};
+		F0D376F92951FD6C007503F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0D376472951F9C7007503F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0D376ED2951FD6B007503F4;
+			remoteInfo = STCore;
+		};
+		F0D376FB2951FD6C007503F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0D376472951F9C7007503F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0D3764E2951F9C7007503F4;
+			remoteInfo = MyTunes;
+		};
+		F0D377012951FD6C007503F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0D376472951F9C7007503F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0D376ED2951FD6B007503F4;
+			remoteInfo = STCore;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F0D3769E2951FD18007503F4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F0D377042951FD6C007503F4 /* STCore.framework in Embed Frameworks */,
+				F0D376C02951FD2D007503F4 /* STEntities.framework in Embed Frameworks */,
+				F0D376E22951FD5A007503F4 /* STComponents.framework in Embed Frameworks */,
+				F0D3769D2951FD18007503F4 /* STNetwork.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1B68F58B75B887039ECB8C40 /* Pods-MyTunesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTunesTests.debug.xcconfig"; path = "Target Support Files/Pods-MyTunesTests/Pods-MyTunesTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -61,6 +186,26 @@
 		F0D3766F2951F9C8007503F4 /* MyTunesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTunesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D376732951F9C8007503F4 /* MyTunesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesUITests.swift; sourceTree = "<group>"; };
 		F0D376752951F9C8007503F4 /* MyTunesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F0D376872951FD18007503F4 /* STNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D376892951FD18007503F4 /* STNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STNetwork.h; sourceTree = "<group>"; };
+		F0D3768A2951FD18007503F4 /* STNetwork.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = STNetwork.docc; sourceTree = "<group>"; };
+		F0D376902951FD18007503F4 /* STNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D376972951FD18007503F4 /* STNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STNetworkTests.swift; sourceTree = "<group>"; };
+		F0D376AA2951FD2D007503F4 /* STEntities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STEntities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D376AC2951FD2D007503F4 /* STEntities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STEntities.h; sourceTree = "<group>"; };
+		F0D376AD2951FD2D007503F4 /* STEntities.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = STEntities.docc; sourceTree = "<group>"; };
+		F0D376B32951FD2D007503F4 /* STEntitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STEntitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D376BA2951FD2D007503F4 /* STEntitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEntitiesTests.swift; sourceTree = "<group>"; };
+		F0D376CC2951FD5A007503F4 /* STComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D376CE2951FD5A007503F4 /* STComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STComponents.h; sourceTree = "<group>"; };
+		F0D376CF2951FD5A007503F4 /* STComponents.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = STComponents.docc; sourceTree = "<group>"; };
+		F0D376D52951FD5A007503F4 /* STComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D376DC2951FD5A007503F4 /* STComponentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STComponentsTests.swift; sourceTree = "<group>"; };
+		F0D376EE2951FD6B007503F4 /* STCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D376F02951FD6B007503F4 /* STCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STCore.h; sourceTree = "<group>"; };
+		F0D376F12951FD6B007503F4 /* STCore.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = STCore.docc; sourceTree = "<group>"; };
+		F0D376F72951FD6C007503F4 /* STCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D376FE2951FD6C007503F4 /* STCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STCoreTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +213,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0D3769C2951FD18007503F4 /* STNetwork.framework in Frameworks */,
+				F0D376BF2951FD2D007503F4 /* STEntities.framework in Frameworks */,
 				944B3EB24CA521AEF7297D7F /* Pods_MyTunes.framework in Frameworks */,
+				F0D376E12951FD5A007503F4 /* STComponents.framework in Frameworks */,
+				F0D377032951FD6C007503F4 /* STCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +234,66 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F22AA47E70CE29F64D1DC9B /* Pods_MyTunes_MyTunesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376842951FD18007503F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D3768D2951FD18007503F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D376912951FD18007503F4 /* STNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376A72951FD2D007503F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376B02951FD2D007503F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D376B42951FD2D007503F4 /* STEntities.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376C92951FD5A007503F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376D22951FD5A007503F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D376D62951FD5A007503F4 /* STComponents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376EB2951FD6B007503F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376F42951FD6C007503F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D376F82951FD6C007503F4 /* STCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +320,6 @@
 				1B68F58B75B887039ECB8C40 /* Pods-MyTunesTests.debug.xcconfig */,
 				D01A56964A0AD87B610A8ECB /* Pods-MyTunesTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -121,6 +329,14 @@
 				F0D376512951F9C7007503F4 /* MyTunes */,
 				F0D376682951F9C8007503F4 /* MyTunesTests */,
 				F0D376722951F9C8007503F4 /* MyTunesUITests */,
+				F0D376882951FD18007503F4 /* STNetwork */,
+				F0D376962951FD18007503F4 /* STNetworkTests */,
+				F0D376AB2951FD2D007503F4 /* STEntities */,
+				F0D376B92951FD2D007503F4 /* STEntitiesTests */,
+				F0D376CD2951FD5A007503F4 /* STComponents */,
+				F0D376DB2951FD5A007503F4 /* STComponentsTests */,
+				F0D376EF2951FD6B007503F4 /* STCore */,
+				F0D376FD2951FD6C007503F4 /* STCoreTests */,
 				F0D376502951F9C7007503F4 /* Products */,
 				B72FE0F43116D5FF5A725454 /* Pods */,
 				6CD2D15B39CB7907C76ECA05 /* Frameworks */,
@@ -133,6 +349,14 @@
 				F0D3764F2951F9C7007503F4 /* MyTunes.app */,
 				F0D376652951F9C8007503F4 /* MyTunesTests.xctest */,
 				F0D3766F2951F9C8007503F4 /* MyTunesUITests.xctest */,
+				F0D376872951FD18007503F4 /* STNetwork.framework */,
+				F0D376902951FD18007503F4 /* STNetworkTests.xctest */,
+				F0D376AA2951FD2D007503F4 /* STEntities.framework */,
+				F0D376B32951FD2D007503F4 /* STEntitiesTests.xctest */,
+				F0D376CC2951FD5A007503F4 /* STComponents.framework */,
+				F0D376D52951FD5A007503F4 /* STComponentsTests.xctest */,
+				F0D376EE2951FD6B007503F4 /* STCore.framework */,
+				F0D376F72951FD6C007503F4 /* STCoreTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,7 +392,110 @@
 			path = MyTunesUITests;
 			sourceTree = "<group>";
 		};
+		F0D376882951FD18007503F4 /* STNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				F0D376892951FD18007503F4 /* STNetwork.h */,
+				F0D3768A2951FD18007503F4 /* STNetwork.docc */,
+			);
+			path = STNetwork;
+			sourceTree = "<group>";
+		};
+		F0D376962951FD18007503F4 /* STNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0D376972951FD18007503F4 /* STNetworkTests.swift */,
+			);
+			path = STNetworkTests;
+			sourceTree = "<group>";
+		};
+		F0D376AB2951FD2D007503F4 /* STEntities */ = {
+			isa = PBXGroup;
+			children = (
+				F0D376AC2951FD2D007503F4 /* STEntities.h */,
+				F0D376AD2951FD2D007503F4 /* STEntities.docc */,
+			);
+			path = STEntities;
+			sourceTree = "<group>";
+		};
+		F0D376B92951FD2D007503F4 /* STEntitiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0D376BA2951FD2D007503F4 /* STEntitiesTests.swift */,
+			);
+			path = STEntitiesTests;
+			sourceTree = "<group>";
+		};
+		F0D376CD2951FD5A007503F4 /* STComponents */ = {
+			isa = PBXGroup;
+			children = (
+				F0D376CE2951FD5A007503F4 /* STComponents.h */,
+				F0D376CF2951FD5A007503F4 /* STComponents.docc */,
+			);
+			path = STComponents;
+			sourceTree = "<group>";
+		};
+		F0D376DB2951FD5A007503F4 /* STComponentsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0D376DC2951FD5A007503F4 /* STComponentsTests.swift */,
+			);
+			path = STComponentsTests;
+			sourceTree = "<group>";
+		};
+		F0D376EF2951FD6B007503F4 /* STCore */ = {
+			isa = PBXGroup;
+			children = (
+				F0D376F02951FD6B007503F4 /* STCore.h */,
+				F0D376F12951FD6B007503F4 /* STCore.docc */,
+			);
+			path = STCore;
+			sourceTree = "<group>";
+		};
+		F0D376FD2951FD6C007503F4 /* STCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0D376FE2951FD6C007503F4 /* STCoreTests.swift */,
+			);
+			path = STCoreTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F0D376822951FD18007503F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D376992951FD18007503F4 /* STNetwork.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376A52951FD2D007503F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D376BC2951FD2D007503F4 /* STEntities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376C72951FD5A007503F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D376DE2951FD5A007503F4 /* STComponents.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376E92951FD6B007503F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D377002951FD6C007503F4 /* STCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		F0D3764E2951F9C7007503F4 /* MyTunes */ = {
@@ -180,10 +507,15 @@
 				F0D3764C2951F9C7007503F4 /* Frameworks */,
 				F0D3764D2951F9C7007503F4 /* Resources */,
 				582619EF706860A275701787 /* [CP] Embed Pods Frameworks */,
+				F0D3769E2951FD18007503F4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F0D3769B2951FD18007503F4 /* PBXTargetDependency */,
+				F0D376BE2951FD2D007503F4 /* PBXTargetDependency */,
+				F0D376E02951FD5A007503F4 /* PBXTargetDependency */,
+				F0D377022951FD6C007503F4 /* PBXTargetDependency */,
 			);
 			name = MyTunes;
 			productName = MyTunes;
@@ -229,6 +561,154 @@
 			productReference = F0D3766F2951F9C8007503F4 /* MyTunesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		F0D376862951FD18007503F4 /* STNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0D376A32951FD18007503F4 /* Build configuration list for PBXNativeTarget "STNetwork" */;
+			buildPhases = (
+				F0D376822951FD18007503F4 /* Headers */,
+				F0D376832951FD18007503F4 /* Sources */,
+				F0D376842951FD18007503F4 /* Frameworks */,
+				F0D376852951FD18007503F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STNetwork;
+			productName = STNetwork;
+			productReference = F0D376872951FD18007503F4 /* STNetwork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0D3768F2951FD18007503F4 /* STNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0D376A42951FD18007503F4 /* Build configuration list for PBXNativeTarget "STNetworkTests" */;
+			buildPhases = (
+				F0D3768C2951FD18007503F4 /* Sources */,
+				F0D3768D2951FD18007503F4 /* Frameworks */,
+				F0D3768E2951FD18007503F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0D376932951FD18007503F4 /* PBXTargetDependency */,
+				F0D376952951FD18007503F4 /* PBXTargetDependency */,
+			);
+			name = STNetworkTests;
+			productName = STNetworkTests;
+			productReference = F0D376902951FD18007503F4 /* STNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0D376A92951FD2D007503F4 /* STEntities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0D376C12951FD2D007503F4 /* Build configuration list for PBXNativeTarget "STEntities" */;
+			buildPhases = (
+				F0D376A52951FD2D007503F4 /* Headers */,
+				F0D376A62951FD2D007503F4 /* Sources */,
+				F0D376A72951FD2D007503F4 /* Frameworks */,
+				F0D376A82951FD2D007503F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STEntities;
+			productName = STEntities;
+			productReference = F0D376AA2951FD2D007503F4 /* STEntities.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0D376B22951FD2D007503F4 /* STEntitiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0D376C42951FD2D007503F4 /* Build configuration list for PBXNativeTarget "STEntitiesTests" */;
+			buildPhases = (
+				F0D376AF2951FD2D007503F4 /* Sources */,
+				F0D376B02951FD2D007503F4 /* Frameworks */,
+				F0D376B12951FD2D007503F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0D376B62951FD2D007503F4 /* PBXTargetDependency */,
+				F0D376B82951FD2D007503F4 /* PBXTargetDependency */,
+			);
+			name = STEntitiesTests;
+			productName = STEntitiesTests;
+			productReference = F0D376B32951FD2D007503F4 /* STEntitiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0D376CB2951FD5A007503F4 /* STComponents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0D376E32951FD5A007503F4 /* Build configuration list for PBXNativeTarget "STComponents" */;
+			buildPhases = (
+				F0D376C72951FD5A007503F4 /* Headers */,
+				F0D376C82951FD5A007503F4 /* Sources */,
+				F0D376C92951FD5A007503F4 /* Frameworks */,
+				F0D376CA2951FD5A007503F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STComponents;
+			productName = STComponents;
+			productReference = F0D376CC2951FD5A007503F4 /* STComponents.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0D376D42951FD5A007503F4 /* STComponentsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0D376E62951FD5A007503F4 /* Build configuration list for PBXNativeTarget "STComponentsTests" */;
+			buildPhases = (
+				F0D376D12951FD5A007503F4 /* Sources */,
+				F0D376D22951FD5A007503F4 /* Frameworks */,
+				F0D376D32951FD5A007503F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0D376D82951FD5A007503F4 /* PBXTargetDependency */,
+				F0D376DA2951FD5A007503F4 /* PBXTargetDependency */,
+			);
+			name = STComponentsTests;
+			productName = STComponentsTests;
+			productReference = F0D376D52951FD5A007503F4 /* STComponentsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0D376ED2951FD6B007503F4 /* STCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0D377052951FD6C007503F4 /* Build configuration list for PBXNativeTarget "STCore" */;
+			buildPhases = (
+				F0D376E92951FD6B007503F4 /* Headers */,
+				F0D376EA2951FD6B007503F4 /* Sources */,
+				F0D376EB2951FD6B007503F4 /* Frameworks */,
+				F0D376EC2951FD6B007503F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STCore;
+			productName = STCore;
+			productReference = F0D376EE2951FD6B007503F4 /* STCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0D376F62951FD6C007503F4 /* STCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0D377082951FD6C007503F4 /* Build configuration list for PBXNativeTarget "STCoreTests" */;
+			buildPhases = (
+				F0D376F32951FD6C007503F4 /* Sources */,
+				F0D376F42951FD6C007503F4 /* Frameworks */,
+				F0D376F52951FD6C007503F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0D376FA2951FD6C007503F4 /* PBXTargetDependency */,
+				F0D376FC2951FD6C007503F4 /* PBXTargetDependency */,
+			);
+			name = STCoreTests;
+			productName = STCoreTests;
+			productReference = F0D376F72951FD6C007503F4 /* STCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -250,6 +730,34 @@
 						CreatedOnToolsVersion = 14.1;
 						TestTargetID = F0D3764E2951F9C7007503F4;
 					};
+					F0D376862951FD18007503F4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F0D3768F2951FD18007503F4 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F0D3764E2951F9C7007503F4;
+					};
+					F0D376A92951FD2D007503F4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F0D376B22951FD2D007503F4 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F0D3764E2951F9C7007503F4;
+					};
+					F0D376CB2951FD5A007503F4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F0D376D42951FD5A007503F4 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F0D3764E2951F9C7007503F4;
+					};
+					F0D376ED2951FD6B007503F4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F0D376F62951FD6C007503F4 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F0D3764E2951F9C7007503F4;
+					};
 				};
 			};
 			buildConfigurationList = F0D3764A2951F9C7007503F4 /* Build configuration list for PBXProject "MyTunes" */;
@@ -268,6 +776,14 @@
 				F0D3764E2951F9C7007503F4 /* MyTunes */,
 				F0D376642951F9C8007503F4 /* MyTunesTests */,
 				F0D3766E2951F9C8007503F4 /* MyTunesUITests */,
+				F0D376862951FD18007503F4 /* STNetwork */,
+				F0D3768F2951FD18007503F4 /* STNetworkTests */,
+				F0D376A92951FD2D007503F4 /* STEntities */,
+				F0D376B22951FD2D007503F4 /* STEntitiesTests */,
+				F0D376CB2951FD5A007503F4 /* STComponents */,
+				F0D376D42951FD5A007503F4 /* STComponentsTests */,
+				F0D376ED2951FD6B007503F4 /* STCore */,
+				F0D376F62951FD6C007503F4 /* STCoreTests */,
 			);
 		};
 /* End PBXProject section */
@@ -291,6 +807,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F0D3766D2951F9C8007503F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376852951FD18007503F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D3768E2951FD18007503F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376A82951FD2D007503F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376B12951FD2D007503F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376CA2951FD5A007503F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376D32951FD5A007503F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376EC2951FD6B007503F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376F52951FD6C007503F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -430,6 +1002,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F0D376832951FD18007503F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D3768B2951FD18007503F4 /* STNetwork.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D3768C2951FD18007503F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D376982951FD18007503F4 /* STNetworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376A62951FD2D007503F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D376AE2951FD2D007503F4 /* STEntities.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376AF2951FD2D007503F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D376BB2951FD2D007503F4 /* STEntitiesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376C82951FD5A007503F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D376D02951FD5A007503F4 /* STComponents.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376D12951FD5A007503F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D376DD2951FD5A007503F4 /* STComponentsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376EA2951FD6B007503F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D376F22951FD6B007503F4 /* STCore.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D376F32951FD6C007503F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D376FF2951FD6C007503F4 /* STCoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -442,6 +1078,66 @@
 			isa = PBXTargetDependency;
 			target = F0D3764E2951F9C7007503F4 /* MyTunes */;
 			targetProxy = F0D376702951F9C8007503F4 /* PBXContainerItemProxy */;
+		};
+		F0D376932951FD18007503F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0D376862951FD18007503F4 /* STNetwork */;
+			targetProxy = F0D376922951FD18007503F4 /* PBXContainerItemProxy */;
+		};
+		F0D376952951FD18007503F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0D3764E2951F9C7007503F4 /* MyTunes */;
+			targetProxy = F0D376942951FD18007503F4 /* PBXContainerItemProxy */;
+		};
+		F0D3769B2951FD18007503F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0D376862951FD18007503F4 /* STNetwork */;
+			targetProxy = F0D3769A2951FD18007503F4 /* PBXContainerItemProxy */;
+		};
+		F0D376B62951FD2D007503F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0D376A92951FD2D007503F4 /* STEntities */;
+			targetProxy = F0D376B52951FD2D007503F4 /* PBXContainerItemProxy */;
+		};
+		F0D376B82951FD2D007503F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0D3764E2951F9C7007503F4 /* MyTunes */;
+			targetProxy = F0D376B72951FD2D007503F4 /* PBXContainerItemProxy */;
+		};
+		F0D376BE2951FD2D007503F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0D376A92951FD2D007503F4 /* STEntities */;
+			targetProxy = F0D376BD2951FD2D007503F4 /* PBXContainerItemProxy */;
+		};
+		F0D376D82951FD5A007503F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0D376CB2951FD5A007503F4 /* STComponents */;
+			targetProxy = F0D376D72951FD5A007503F4 /* PBXContainerItemProxy */;
+		};
+		F0D376DA2951FD5A007503F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0D3764E2951F9C7007503F4 /* MyTunes */;
+			targetProxy = F0D376D92951FD5A007503F4 /* PBXContainerItemProxy */;
+		};
+		F0D376E02951FD5A007503F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0D376CB2951FD5A007503F4 /* STComponents */;
+			targetProxy = F0D376DF2951FD5A007503F4 /* PBXContainerItemProxy */;
+		};
+		F0D376FA2951FD6C007503F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0D376ED2951FD6B007503F4 /* STCore */;
+			targetProxy = F0D376F92951FD6C007503F4 /* PBXContainerItemProxy */;
+		};
+		F0D376FC2951FD6C007503F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0D3764E2951F9C7007503F4 /* MyTunes */;
+			targetProxy = F0D376FB2951FD6C007503F4 /* PBXContainerItemProxy */;
+		};
+		F0D377022951FD6C007503F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0D376ED2951FD6B007503F4 /* STCore */;
+			targetProxy = F0D377012951FD6C007503F4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -717,6 +1413,390 @@
 			};
 			name = Release;
 		};
+		F0D3769F2951FD18007503F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4GTKZHWKW2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0D376A02951FD18007503F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4GTKZHWKW2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0D376A12951FD18007503F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GTKZHWKW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTunes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyTunes";
+			};
+			name = Debug;
+		};
+		F0D376A22951FD18007503F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GTKZHWKW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTunes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyTunes";
+			};
+			name = Release;
+		};
+		F0D376C22951FD2D007503F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4GTKZHWKW2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STEntities;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0D376C32951FD2D007503F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4GTKZHWKW2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STEntities;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0D376C52951FD2D007503F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GTKZHWKW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STEntitiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTunes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyTunes";
+			};
+			name = Debug;
+		};
+		F0D376C62951FD2D007503F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GTKZHWKW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STEntitiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTunes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyTunes";
+			};
+			name = Release;
+		};
+		F0D376E42951FD5A007503F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4GTKZHWKW2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STComponents;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0D376E52951FD5A007503F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4GTKZHWKW2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STComponents;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0D376E72951FD5A007503F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GTKZHWKW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STComponentsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTunes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyTunes";
+			};
+			name = Debug;
+		};
+		F0D376E82951FD5A007503F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GTKZHWKW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STComponentsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTunes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyTunes";
+			};
+			name = Release;
+		};
+		F0D377062951FD6C007503F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4GTKZHWKW2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0D377072951FD6C007503F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4GTKZHWKW2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0D377092951FD6C007503F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GTKZHWKW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTunes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyTunes";
+			};
+			name = Debug;
+		};
+		F0D3770A2951FD6C007503F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GTKZHWKW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTunes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyTunes";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -752,6 +1832,78 @@
 			buildConfigurations = (
 				F0D376802951F9C8007503F4 /* Debug */,
 				F0D376812951F9C8007503F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0D376A32951FD18007503F4 /* Build configuration list for PBXNativeTarget "STNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D3769F2951FD18007503F4 /* Debug */,
+				F0D376A02951FD18007503F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0D376A42951FD18007503F4 /* Build configuration list for PBXNativeTarget "STNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D376A12951FD18007503F4 /* Debug */,
+				F0D376A22951FD18007503F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0D376C12951FD2D007503F4 /* Build configuration list for PBXNativeTarget "STEntities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D376C22951FD2D007503F4 /* Debug */,
+				F0D376C32951FD2D007503F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0D376C42951FD2D007503F4 /* Build configuration list for PBXNativeTarget "STEntitiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D376C52951FD2D007503F4 /* Debug */,
+				F0D376C62951FD2D007503F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0D376E32951FD5A007503F4 /* Build configuration list for PBXNativeTarget "STComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D376E42951FD5A007503F4 /* Debug */,
+				F0D376E52951FD5A007503F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0D376E62951FD5A007503F4 /* Build configuration list for PBXNativeTarget "STComponentsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D376E72951FD5A007503F4 /* Debug */,
+				F0D376E82951FD5A007503F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0D377052951FD6C007503F4 /* Build configuration list for PBXNativeTarget "STCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D377062951FD6C007503F4 /* Debug */,
+				F0D377072951FD6C007503F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0D377082951FD6C007503F4 /* Build configuration list for PBXNativeTarget "STCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D377092951FD6C007503F4 /* Debug */,
+				F0D3770A2951FD6C007503F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

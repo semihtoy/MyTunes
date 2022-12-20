@@ -7,6 +7,26 @@
 		<key>MyTunes.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>STComponents.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>STCore.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>STEntities.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>STNetwork.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
 	</dict>
