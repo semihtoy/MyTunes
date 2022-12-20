@@ -43,6 +43,12 @@
 		F0D377002951FD6C007503F4 /* STCore.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D376F02951FD6B007503F4 /* STCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0D377032951FD6C007503F4 /* STCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D376EE2951FD6B007503F4 /* STCore.framework */; };
 		F0D377042951FD6C007503F4 /* STCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0D376EE2951FD6B007503F4 /* STCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0D377142951FFB6007503F4 /* STScenes.docc in Sources */ = {isa = PBXBuildFile; fileRef = F0D377132951FFB6007503F4 /* STScenes.docc */; };
+		F0D3771A2951FFB7007503F4 /* STScenes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D377102951FFB6007503F4 /* STScenes.framework */; };
+		F0D377212951FFB7007503F4 /* STScenesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D377202951FFB7007503F4 /* STScenesTests.swift */; };
+		F0D377222951FFB7007503F4 /* STScenes.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D377122951FFB6007503F4 /* STScenes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0D377252951FFB7007503F4 /* STScenes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0D377102951FFB6007503F4 /* STScenes.framework */; };
+		F0D377262951FFB7007503F4 /* STScenes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0D377102951FFB6007503F4 /* STScenes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,6 +150,27 @@
 			remoteGlobalIDString = F0D376ED2951FD6B007503F4;
 			remoteInfo = STCore;
 		};
+		F0D3771B2951FFB7007503F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0D376472951F9C7007503F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0D3770F2951FFB6007503F4;
+			remoteInfo = STScenes;
+		};
+		F0D3771D2951FFB7007503F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0D376472951F9C7007503F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0D3764E2951F9C7007503F4;
+			remoteInfo = MyTunes;
+		};
+		F0D377232951FFB7007503F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0D376472951F9C7007503F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0D3770F2951FFB6007503F4;
+			remoteInfo = STScenes;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -156,6 +183,7 @@
 				F0D377042951FD6C007503F4 /* STCore.framework in Embed Frameworks */,
 				F0D376C02951FD2D007503F4 /* STEntities.framework in Embed Frameworks */,
 				F0D376E22951FD5A007503F4 /* STComponents.framework in Embed Frameworks */,
+				F0D377262951FFB7007503F4 /* STScenes.framework in Embed Frameworks */,
 				F0D3769D2951FD18007503F4 /* STNetwork.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -206,6 +234,11 @@
 		F0D376F12951FD6B007503F4 /* STCore.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = STCore.docc; sourceTree = "<group>"; };
 		F0D376F72951FD6C007503F4 /* STCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D376FE2951FD6C007503F4 /* STCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STCoreTests.swift; sourceTree = "<group>"; };
+		F0D377102951FFB6007503F4 /* STScenes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STScenes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D377122951FFB6007503F4 /* STScenes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STScenes.h; sourceTree = "<group>"; };
+		F0D377132951FFB6007503F4 /* STScenes.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = STScenes.docc; sourceTree = "<group>"; };
+		F0D377192951FFB7007503F4 /* STScenesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STScenesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D377202951FFB7007503F4 /* STScenesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STScenesTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +250,7 @@
 				F0D376BF2951FD2D007503F4 /* STEntities.framework in Frameworks */,
 				944B3EB24CA521AEF7297D7F /* Pods_MyTunes.framework in Frameworks */,
 				F0D376E12951FD5A007503F4 /* STComponents.framework in Frameworks */,
+				F0D377252951FFB7007503F4 /* STScenes.framework in Frameworks */,
 				F0D377032951FD6C007503F4 /* STCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +331,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F0D3770D2951FFB6007503F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D377162951FFB7007503F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D3771A2951FFB7007503F4 /* STScenes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -337,6 +386,8 @@
 				F0D376DB2951FD5A007503F4 /* STComponentsTests */,
 				F0D376EF2951FD6B007503F4 /* STCore */,
 				F0D376FD2951FD6C007503F4 /* STCoreTests */,
+				F0D377112951FFB6007503F4 /* STScenes */,
+				F0D3771F2951FFB7007503F4 /* STScenesTests */,
 				F0D376502951F9C7007503F4 /* Products */,
 				B72FE0F43116D5FF5A725454 /* Pods */,
 				6CD2D15B39CB7907C76ECA05 /* Frameworks */,
@@ -357,6 +408,8 @@
 				F0D376D52951FD5A007503F4 /* STComponentsTests.xctest */,
 				F0D376EE2951FD6B007503F4 /* STCore.framework */,
 				F0D376F72951FD6C007503F4 /* STCoreTests.xctest */,
+				F0D377102951FFB6007503F4 /* STScenes.framework */,
+				F0D377192951FFB7007503F4 /* STScenesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -460,6 +513,23 @@
 			path = STCoreTests;
 			sourceTree = "<group>";
 		};
+		F0D377112951FFB6007503F4 /* STScenes */ = {
+			isa = PBXGroup;
+			children = (
+				F0D377122951FFB6007503F4 /* STScenes.h */,
+				F0D377132951FFB6007503F4 /* STScenes.docc */,
+			);
+			path = STScenes;
+			sourceTree = "<group>";
+		};
+		F0D3771F2951FFB7007503F4 /* STScenesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0D377202951FFB7007503F4 /* STScenesTests.swift */,
+			);
+			path = STScenesTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -495,6 +565,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F0D3770B2951FFB6007503F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D377222951FFB7007503F4 /* STScenes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -516,6 +594,7 @@
 				F0D376BE2951FD2D007503F4 /* PBXTargetDependency */,
 				F0D376E02951FD5A007503F4 /* PBXTargetDependency */,
 				F0D377022951FD6C007503F4 /* PBXTargetDependency */,
+				F0D377242951FFB7007503F4 /* PBXTargetDependency */,
 			);
 			name = MyTunes;
 			productName = MyTunes;
@@ -709,6 +788,43 @@
 			productReference = F0D376F72951FD6C007503F4 /* STCoreTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F0D3770F2951FFB6007503F4 /* STScenes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0D3772B2951FFB7007503F4 /* Build configuration list for PBXNativeTarget "STScenes" */;
+			buildPhases = (
+				F0D3770B2951FFB6007503F4 /* Headers */,
+				F0D3770C2951FFB6007503F4 /* Sources */,
+				F0D3770D2951FFB6007503F4 /* Frameworks */,
+				F0D3770E2951FFB6007503F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STScenes;
+			productName = STScenes;
+			productReference = F0D377102951FFB6007503F4 /* STScenes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0D377182951FFB7007503F4 /* STScenesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0D3772C2951FFB7007503F4 /* Build configuration list for PBXNativeTarget "STScenesTests" */;
+			buildPhases = (
+				F0D377152951FFB7007503F4 /* Sources */,
+				F0D377162951FFB7007503F4 /* Frameworks */,
+				F0D377172951FFB7007503F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0D3771C2951FFB7007503F4 /* PBXTargetDependency */,
+				F0D3771E2951FFB7007503F4 /* PBXTargetDependency */,
+			);
+			name = STScenesTests;
+			productName = STScenesTests;
+			productReference = F0D377192951FFB7007503F4 /* STScenesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -758,6 +874,13 @@
 						CreatedOnToolsVersion = 14.1;
 						TestTargetID = F0D3764E2951F9C7007503F4;
 					};
+					F0D3770F2951FFB6007503F4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F0D377182951FFB7007503F4 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F0D3764E2951F9C7007503F4;
+					};
 				};
 			};
 			buildConfigurationList = F0D3764A2951F9C7007503F4 /* Build configuration list for PBXProject "MyTunes" */;
@@ -784,6 +907,8 @@
 				F0D376D42951FD5A007503F4 /* STComponentsTests */,
 				F0D376ED2951FD6B007503F4 /* STCore */,
 				F0D376F62951FD6C007503F4 /* STCoreTests */,
+				F0D3770F2951FFB6007503F4 /* STScenes */,
+				F0D377182951FFB7007503F4 /* STScenesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -863,6 +988,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F0D376F52951FD6C007503F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D3770E2951FFB6007503F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D377172951FFB7007503F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1066,6 +1205,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F0D3770C2951FFB6007503F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D377142951FFB6007503F4 /* STScenes.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D377152951FFB7007503F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D377212951FFB7007503F4 /* STScenesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1138,6 +1293,21 @@
 			isa = PBXTargetDependency;
 			target = F0D376ED2951FD6B007503F4 /* STCore */;
 			targetProxy = F0D377012951FD6C007503F4 /* PBXContainerItemProxy */;
+		};
+		F0D3771C2951FFB7007503F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0D3770F2951FFB6007503F4 /* STScenes */;
+			targetProxy = F0D3771B2951FFB7007503F4 /* PBXContainerItemProxy */;
+		};
+		F0D3771E2951FFB7007503F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0D3764E2951F9C7007503F4 /* MyTunes */;
+			targetProxy = F0D3771D2951FFB7007503F4 /* PBXContainerItemProxy */;
+		};
+		F0D377242951FFB7007503F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0D3770F2951FFB6007503F4 /* STScenes */;
+			targetProxy = F0D377232951FFB7007503F4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1797,6 +1967,102 @@
 			};
 			name = Release;
 		};
+		F0D377272951FFB7007503F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4GTKZHWKW2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STScenes;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0D377282951FFB7007503F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4GTKZHWKW2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STScenes;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0D377292951FFB7007503F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GTKZHWKW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STScenesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTunes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyTunes";
+			};
+			name = Debug;
+		};
+		F0D3772A2951FFB7007503F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GTKZHWKW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STScenesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTunes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyTunes";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1904,6 +2170,24 @@
 			buildConfigurations = (
 				F0D377092951FD6C007503F4 /* Debug */,
 				F0D3770A2951FD6C007503F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0D3772B2951FFB7007503F4 /* Build configuration list for PBXNativeTarget "STScenes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D377272951FFB7007503F4 /* Debug */,
+				F0D377282951FFB7007503F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0D3772C2951FFB7007503F4 /* Build configuration list for PBXNativeTarget "STScenesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D377292951FFB7007503F4 /* Debug */,
+				F0D3772A2951FFB7007503F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
