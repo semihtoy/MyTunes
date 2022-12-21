@@ -20,5 +20,18 @@ target 'MyTunes' do
   target 'MyTunesUITests' do
     # Pods for testing
   end
+  
+  # New Swift Project pods
+  def network_pods
+    pod 'Alamofire', :modular_headers => true
+  end
+
+target 'STNetwork' do
+  
+  project 'MyTunes.project'
+  
+  network_pods
+  target :STNetworkTests
+end
 
 end
