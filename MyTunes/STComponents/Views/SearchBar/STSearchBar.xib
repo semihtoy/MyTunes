@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="STSearchBar" customModule="STComponents" customModuleProvider="target">
+            <connections>
+                <outlet property="searchButton" destination="Sh8-SL-VnS" id="Rpf-tj-aBC"/>
+                <outlet property="searchTextField" destination="6Yb-ia-Pdw" id="MvT-18-lRh"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="406" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sh8-SL-VnS">
+                    <rect key="frame" x="356" y="0.0" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="8Cs-VS-Myc"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system"/>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Yb-ia-Pdw">
+                    <rect key="frame" x="0.0" y="0.0" width="356" height="50"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Sh8-SL-VnS" secondAttribute="bottom" id="1RW-0g-OoM"/>
+                <constraint firstItem="6Yb-ia-Pdw" firstAttribute="top" secondItem="Sh8-SL-VnS" secondAttribute="top" id="5Ul-cK-0sK"/>
+                <constraint firstItem="6Yb-ia-Pdw" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="bnl-Co-Ifv"/>
+                <constraint firstItem="Sh8-SL-VnS" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="c7i-X1-cMC"/>
+                <constraint firstItem="Sh8-SL-VnS" firstAttribute="leading" secondItem="6Yb-ia-Pdw" secondAttribute="trailing" id="fqa-3Q-C3y"/>
+                <constraint firstItem="6Yb-ia-Pdw" firstAttribute="bottom" secondItem="Sh8-SL-VnS" secondAttribute="bottom" id="ljU-WU-kgH"/>
+                <constraint firstItem="Sh8-SL-VnS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ydE-rA-Idp"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="143.5114503816794" y="-293.66197183098592"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
